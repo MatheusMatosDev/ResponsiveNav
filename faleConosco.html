@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/Responsive.css" />
+    <title>Menu reponsivo</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <h2>Logo</h2>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faleConosco.html">Fale conosco</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+        </div>
+        <div class="mobile-menu-icon">
+          <button onclick="mostrarMenu()">
+            <img class="icon" src="src/imgs/1783255.png" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faleConosco.html">Fale conosco</a>
+          </li>
+        </ul>
+
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+        </div>
+      </div>
+    </header>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
